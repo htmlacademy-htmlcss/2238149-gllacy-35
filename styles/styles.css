@@ -340,6 +340,8 @@ body {
   box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   cursor: pointer;
   font-family: inherit;
+  text-decoration: none;
+  margin-right: 25px;
 }
 
 .loader::after {
