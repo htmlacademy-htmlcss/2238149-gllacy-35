@@ -83,10 +83,6 @@ body {
   overflow: overlay;
 }
 
-button {
-  font-family: Inter;
-}
-
 .container {
   max-width: 1366px;
   margin: 0 auto;
@@ -343,6 +339,7 @@ button {
   -webkit-box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
   cursor: pointer;
+  font-family: inherit;
 }
 
 .loader::after {
